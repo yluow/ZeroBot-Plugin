@@ -84,7 +84,7 @@ import (
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/guessmusic"    // 猜歌
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/hs"            // 炉石
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hyaku"         // 百人一首
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/hyaku"         // 百人一首
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/image_finder"  // 关键字搜图
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/inject"        // 注入指令
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jandan"        // 煎蛋网无聊图
@@ -97,7 +97,7 @@ import (
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/nativesetu"    // 本地涩图
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/nativewife"    // 本地老婆
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nbnhhsh"       // 拼音首字母缩写释义工具
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/nbnhhsh"       // 拼音首字母缩写释义工具
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nihongo"       // 日语语法学习
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/novel"         // 铅笔小说网搜索
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nsfw"          // nsfw图片识别
@@ -119,9 +119,10 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/translation"   // 翻译
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/vtb_quotation" // vtb语录
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wangyiyun"     // 网易云音乐热评
+
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/word_count"    // 聊天热词
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wordle"        // 猜单词
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ymgal"         // 月幕galgame
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/ymgal"         // 月幕galgame
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"            // 鬼东西
 
@@ -208,7 +209,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	 sus = append(sus, 811673047)
+	sus = append(sus, 811673047)
 	// sus = append(sus, 87654321)
 
 	if *runcfg != "" {
